@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href = "https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+        <link href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.0/css/all.min.css" rel = "stylesheet">
+        <link rel = "icon" href = "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F8%2F8e%2FEo_circle_blue_letter-e.svg%2F1200px-Eo_circle_blue_letter-e.svg.png&f=1&nofb=1" type = "image/x-icon"> 
+        <title>Home - Edgez</title>
+    </head>
+    <body>
+        <nav>
+            <h1>Edgez</h1>
+        </nav>
+        <br>
+        <br>
+        <br>
+        <div id = "home">
+            <div id = "s1" onclick = "s1()">
+                <br>
+                <h2>Twitter Censorship</h2>
+                <img src = "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Facmconnect.com%2Fwp-content%2Fuploads%2F2015%2F07%2FScreenshot-1276-1024x576.png&f=1&nofb=1" id = "i" />
+                <p id = "i">Who has Twitter been censoring?</p>
+                <br>
+            </div>
+        </div>
+        <div id = "story1">
+            <br>
+            <h2>Twitter Censorship</h2>
+            <p id = "i">Who has twitter been censoring?</p>
+            <img src = "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Facmconnect.com%2Fwp-content%2Fuploads%2F2015%2F07%2FScreenshot-1276-1024x576.png&f=1&nofb=1" id = "i" style = "margin-top:10px" />
+            <br>
+            <p id = "para">Some people believe that Twitter has been censoring people such as conservatives for a long while now. Others disagree with this statement.</p>
+            <br>
+            <p id = "para">But before we talk about Twitter censorship, we have to think what defines censorship? <a href = "https://en.m.wikipedia.org/wiki/Censorship" target = "_blank">Here is Wikipedia's definition of censorship</a>.</p>
+            <br>
+            <p id = "para">People bring up the example of <a href = "https://en.wikipedia.org/wiki/Donald_Trump" target = "_blank">Donald Trump</a> being banned on almost all social medias. While some may consider this censoring, others may say it's just making sure people say safe.</p>
+            <br>
+            <p id = "para">Most of those social medias claim that <a href = "https://en.wikipedia.org/wiki/Donald_Trump" target = "_blank">Donald Trump</a> incited violence during the January 6th riot. Some think this is good and others don't.</p>
+            <br>
+            <p id = "para">He is still on a social media called <a href = "https://gab.com/" target = "_blank">Gab</a>, a social media made for conservatives. He is still active on his profile there. Now let's look at Joe Biden's account.</p>
+            <br>
+            <p id = "para">Joe Biden's accounts still remain up and active on platforms such as Twitter and Facebook.</p>
+            <br>
+            <p id = "para">In conclusion, Twitter may he censoring people in ways such as bans or suspensions.</p>
+            <br>
+            <label id = "ci">Share this article</label>
+            <br>
+            <hr>
+            <br>
+            <form>
+            <a href = "sms://+?body=Twitter Censorship maxsspot.github.io/edgez/%23twittercensorship" target = "_blank" id = "s"><i class = "fas fa-sms fa-lg"></i></a>
+            <a href = "mailto:?subject=Twitter Censorship&body=maxsspot.github.io/edgez/#twittercensorship" target = "_blank" id = "s"><i class = "fas fa-envelope fa-lg"></i></a>
+            <a href = "https://reddit.com/submit?url=maxsspot.github.io/edgez/#twittercensorship&title=Twitter Censorship" target = "_blank" id = "s"><i class = "fab fa-reddit fa-lg"></i></a>
+            <a href = "https://www.facebook.com/sharer/sharer.php?u=maxssport.github.io/edge/#twittercensorship;src=sdkpreparse" target = "_blank" id = "s"><i class = "fab fa-facebook fa-lg"></i></a>
+            <a onclick = "print()"><i class = "fas fa-print fa-lg" id = "s"></i></a>
+            <br>
+            <button id = "share" style = "width:150px;" onclick = "home()">Return to home</button>
+            </form>
+           <br>
+           <br>
+        </div>
+        <script>
+            location.hash = "";
+            
+            function s1 () {
+                document.getElementById ("home").style.display = "none";
+                document.getElementById ("story1").style.display = "block";
+                document.title = "Twitter Censorship - Edgez";
+                location.hash = "twittercensorship"
+            }
+            
+            function home () {
+                document.getElementById ("home").style.display = "block";
+                document.getElementById ("story1").style.display = "none";
+                document.title = "Home - Edgez";
+                location.hash = "";
+            }
+            
+            function print () {
+                window.print();
+            }
+        </script>
+        <style>
+            * {
+    margin:0;
+    padding:0;
+}
+
+body {
+    font-family:"Montserrat", sans-serif;
+    text-align:center;
+    background-color:whitesmoke;
+}
+
+#share {
+    color:skyblue;
+    width:50px;
+    border-radius:50px;
+    height:35px;
+    background-color:transparent;
+    border:transparent;
+}
+
+#share:hover {
+    background-color:gainsboro;
+}
+
+#s {
+    margin:5px;
+    color:skyblue;
+    cursor:pointer;
+}
+
+#share:active {
+    background-color:lightgray;
+}
+
+button, #s1 {
+    cursor:pointer;
+}
+
+#ci {
+    font-size:24px;
+}
+
+nav {
+    background-color:white;
+    width:100%;
+    height:50px;
+    position:fixed;
+}
+
+h1 {
+    float:left;
+    margin-left:10px;
+    margin-top:10px;
+}
+
+#i {
+    margin-top:5px;
+}
+
+#para {
+    margin-top:5px;
+    width:250px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#s1 {
+    width:300px;
+    background-color:white;
+    border-radius:5px;
+    margin-left:10px;
+    cursor:pointer;
+    transition:all 0.25s;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#story1 {
+    display:none;
+}
+
+hr {
+    width:300px;
+    border:gainsboro solid 1px;
+    margin-left:auto;
+    margin-right:auto;
+    background-color:gainsboro;
+    border-radius:50px;
+}
+
+a {
+    text-decoration:none;
+}
+
+a:hover {
+    text-decoration:underline;
+}
+
+img {
+    width:250px;
+    border-radius:5px;
+}
+
+#s1:hover {
+    transform:scale(0.95);
+}
+
+#pin {
+    border-radius:50px;
+    background-color:transparent;
+    border:gainsboro solid 1px;
+    width:200px;
+    height:30px;
+    text-indent:10px;
+    margin:1px;
+}
+
+button, input {
+    outline:none;
+    font-family:"Montserrat", sans-serif;
+    transition:all 0.25s;
+}
+        </style>
+    </body>
+</html>
